@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Random Quote Generator</title>
+    <link rel="shortcut icon" href="images/logo.jpg" type="image/x-icon">
+    
+    <!-- fonts files -->
+    <!-- //inter font -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <!-- fontawesome file -->
+    <link rel="stylesheet" href="css/all.min.css" />
+
+    <!-- bootstrap css file -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+
+    <!-- css file -->
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+
+    <header id="home">
+      <div class="layer"></div>
+      <div class="container vh-100 caption">
+
+        <div class="logo-part d-flex justify-content-between align-items-center pt-4 ">
+          <p class="logo text-white">Quotes<span class="text-danger">.</span></p>
+          <p class="text-white hash">#newQuote</p>
+        </div>
+
+        <div class="author-part text-center mt-4">
+          <img src="images/a22.jpg" alt="Oscar Wilde" class="rounded-circle" id="authorImage">
+          <p class="text-white" id="authorText">-- Oscar Wilde --</p>
+        </div>
+
+        <div class="text-part text-center bg-light bg-opacity-25 rounded-3 pt-3">
+          <p class="text-white" id="quoteText">“Be yourself; everyone else is already taken.”</p>
+        </div>
+
+        <div class="btns-part text-center mt-4">
+          <button class="btn bg-white me-2" onclick="randomQuote()">
+            <i class="fa-solid fa-chevron-left text-danger"></i>
+          </button>
+          <button class="btn bg-white ms-2 " onclick="randomQuote()">
+            <i class="fa-solid fa-chevron-right text-danger"></i>
+          </button>
+        </div>
+      </div>
+    </header>
+
+
+
+
+
+
+
+
+
+    
+    <!-- bootstrap js file -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+    <!-- manual js file -->
+    <script src="js/main.js"></script>
+  </body>
+</html>
